@@ -2,6 +2,11 @@ import './App.css';
 import UilReact from "@iconscout/react-unicons/icons/uil-react";
 import Buttons from "./components/buttons";
 import Inputs from "./components/inputs";
+import LocationAndTime from "./components/locationAndtime";
+import Temperature from "./components/tempDetails";
+import HourlyForecast from "./components/hForecast";
+
+
 
 
 
@@ -10,6 +15,10 @@ function App() {
     <div className="mx-auto max-w-screen-md mt -4 py-5 px-32 bg-gradient-to-br from-cyan-700 to-blue-700 h-fit shadow-xl shadow-gray-400">
       <Buttons />
       <Inputs />
+
+      <LocationAndTime />
+      <Temperature />
+      <HourlyForecast />
     </div>
   );
 }

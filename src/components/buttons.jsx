@@ -4,23 +4,23 @@ function buttons() {
     const cities =[
         {
             id:1,
-            title: 'Hong Kong'
-        },
-        {
-            id:2,
             title: 'Toronto'
         },
         {
+            id:2,
+            title: 'Montreal'
+        },
+        {
             id:3,
-            title: 'London'
+            title: 'Vancouver'
         },
         {
             id:1,
-            title: 'Taipei'
+            title: 'Winnipeg'
         },
         {
             id:5,
-            title: 'Osaka'
+            title: 'Ottawa'
         },
     ]
   return <div className="flex items-center justify-around my-8">
